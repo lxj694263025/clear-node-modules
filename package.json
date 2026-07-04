@@ -1,0 +1,28 @@
+{
+  "name": "@junerlee/clear-node-modules",
+  "version": "1.0.0",
+  "description": "Recursively delete all node_modules folders in the directory where the current command is located and its subdirectories.",
+  "private": false,
+  "main": "bin/index.js",
+  "bin": {
+    "clear-node-modules": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "node bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lxj694263025/clear-node-modules.git"
+  },
+  "keywords": [
+    "clear",
+    "node_modules",
+    "cli"
+  ],
+  "author": "Juner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lxj694263025/clear-node-modules/issues"
+  },
+  "homepage": "https://github.com/lxj694263025/clear-node-modules#readme"
+}
