@@ -1,7 +1,7 @@
 {
   "name": "@junerlee/clear-node-modules",
-  "version": "1.0.0",
-  "description": "Recursively delete all node_modules folders in the directory where the current command is located and its subdirectories.",
+  "version": "1.0.1",
+  "description": "递归删除指定目录（含）下所有 .eden-mono 和 node_modules 目录的命令行工具。",
   "private": false,
   "main": "bin/index.js",
   "bin": {
